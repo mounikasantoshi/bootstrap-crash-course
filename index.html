@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Bootstrap cheat sheet</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .navbar{
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+    </style>
+
+    
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">bootstrap cheatsheet</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="jumbotron text-center">
+    <div class="container">
+        <h1>welcome to my website</h1>
+        <p>Replace the navbar brand with your own image by swapping the text for</p>
+        <a href="#" class="btn btn-primary">read more</a>
+    </div>
+</div>
+    <div class="container">
+     <h1 class="page-header">Hello, world!<small>Secondary text</small></h1>
+     <p class="lead">loren ipsum dolorBootstrap is downloadable in two forms, within which </p>
+     <p><mark>you'll find the following</mark> directories and files, logically <del>grouping common </del>resources and providing both <u>bootstrap</u> compiled and minified variations.</p>
+     
+     <hr>
+
+     <p class="text-left text-lowercase">Left aligned text.</p>
+     <p class="text-center text-uppercase">Center aligned text.</p>
+     <p class="text-right">Right aligned text.</p>
+     <p class="text-justify">Justified text.</p>
+     <p class="text-nowrap">No wrap text.</p>
+
+     <div class="pull-right">Div floated to right</div>
+     <div class="pull-left">Div floated to left</div>
+     <div class="clearfix"></div>
+     <hr>
+
+     <blockquote class="blockquote-reverse">
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+       <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+     </blockquote>
+     <hr>
+     <ul class="list-unstyled">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+     </ul>
+     <ul class="list-inline">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+     </ul>
+
+     <code>&lt;h1&gt;Heading text&lt;/h1&gt;</code>
+     <br>
+     to edit setting,press<kbd>ctrl+,</kbd>
+
+     <hr>
+
+     <p class="text-primary">Hello world</p>
+     <p class="text-succes">Hello world</p>
+     <p class="text-info">Hello world</p>
+     <p class="text-warning">Hello world</p>
+     <p class="text-danger">Hello world</p>
+     <p class="text-muted">Hello world</p>
+
+
+     <p class="bg-primary">Hello world</p>
+     <p class="bg-succes">Hello world</p>
+     <p class="bg-info">Hello world</p>
+     <p class="bg-warning">Hello world</p>
+     <p class="bg-danger">Hello world</p>
+     <p class="bg-muted">Hello world</p>
+   </div>
+    <hr>
+
+    <div class="container">
+        <button class="btn btn-default">Button</button>
+        <a href="#" class="btn btn-default" role="button">link</a>
+        <input type="submit" class="btn btn-default" value="submit">
+
+        <button class="btn btn-default">default</button>
+        <button class="btn btn-primary">primary</button>
+        <button class="btn btn-success">success</button>
+        <button class="btn btn-info">info</button>
+        <button class="btn btn-warning">warning</button>
+        <button class="btn btn-danger">delete</button>
+        <button class="btn btn-link">link</button>
+        <button class="btn btn-default btn-lg">default</button>
+        <button class="btn btn-default">default</button>
+        <button class="btn btn-default btn-sm" disabled="disabled">default</button>
+        <button class="btn btn-primary btn-xs">default</button>
+    
+    </div>
+
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label>name</label>
+                <input type="text" class="form-control" placeholder="add name">
+            </div>
+            <div class="form-group">
+                <label>email</label>
+                <input type="email" class="form-control" placeholder="add email">
+            </div>
+            <div class="form-group">
+                <label>message</label>
+                <textarea class="form-control" placeholder="add message"></textarea>
+            </div>
+            <div class="form-group">
+                <label>gender</label>
+                <select class="form-control">
+                    <option value="male">male
+                    </option>
+                     <option value="female">female
+                    </option>
+                     <option value="other">other
+                    </option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>upload file</label>
+                <input type="file">
+                <p class="help-block">only png and jpg allowed</p>
+            </div>
+            <div class="checkbox"><label><input type="checkbox">check me out
+            </label>
+        </div>
+        <button type="submit" class="btn btn-default">submit</button>
+        </form>
+
+        <hr>
+
+        <form class="form-inline">
+            <div class="form-group">
+                <label>email</label>
+                <input type="email" class="form-control" placeholder="email">
+            </div>
+            <div class="form-group">
+                <label>password</label>
+                <input type="password" class="form-control" placeholder="password">
+            </div>
+            <div class="checkbox"><label><input type="checkbox">remember me</label>
+                <button type="submit" class="btn btn-default">login</button>
+        
+        </form>
+    </div>
+    </div>
+
+    <hr>
+
+<div class="container">
+<table class="table table-striped table-bordered table-hover table-condensed">
+    <th>firstname</th>
+<th>last name</th>
+<th>age</th>
+
+<tr class="danger">
+  <td>nill</td>
+  <td>nelu</td>
+  <td>58</td>
+  
+</tr>
+<tr>
+  <td>sada</td>
+  <td>nari</td>
+  <td>28</td>
+  
+</tr>
+<tr>
+  <td>sadaram</td>
+  <td>mounika</td>
+  <td>28</td>
+  
+</tr>
+</table>
+</div>
+
+<hr>
+
+<div class="container">
+    <ul class="list-group">
+        <li class="list-group-item">one</li>
+        <li class="list-group-item">two</li>
+        <li class="list-group-item">three</li>
+        <li class="list-group-item">four</li>
+    </ul>
+
+    <div class="list-group">
+        <a href="#" class="list-group-item">one</a>
+        <a href="#" class="list-group-item">two</a>
+        <a href="#" class="list-group-item">three</a>
+        <a href="#" class="list-group-item active">four</a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">panel title</h3>
+        </div>
+        <div class="panel-body">panel content
+        </div>
+        <div class="panel-footer">panel footer
+        </div>
+    </div>
+
+    <div class="well">hello world</div>
+     <div class="well well-lg">hello world</div>
+      <div class="well well-sm">hello world</div>
+
+      <hr>
+
+      <div class="alert alert-success" role="alert">a success alert</div>
+      <div class="alert alert-info" role="alert">a info alert</div>
+      <div class="alert alert-warning" role="alert">a warning alert</div>
+      <div class="alert alert-danger" role="alert">a danger alert</div>
+
+      <div class="alert alert-warning alert-dismissible" role="alert">
+          <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>u can close this alert
+      </div>
+
+      <div class="progress">
+          <div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 50%;">50%
+            </div>
+      </div>
+
+      <hr>
+
+      <span class="label label-default">default</span>
+      <h1>hello<span class="label label-primary"></span></h1>
+      <span class="label label-success">success</span>
+       <span class="label label-info">info</span>
+        <span class="label label-warning">warning</span>
+         <span class="label label-danger">danger</span>
+
+
+         <a href="#">inbox<span class="badge">50</span></a>
+
+         <button class="btn btn-primary" type="button">message<span class="badge">2</span></button>
+</div>
+
+<div class="container">
+    <img class="thumbnail" src="https://int.search.tb.ask.com/search/AJimage.jhtml?&n=7866ea6e&p2=%5ECNL%5Exdm122%5ETTAB03%5Ein&ptb=BB4165D3-9757-4B5A-914C-F065C4D2DA34&qs=&si=&ss=sub&st=sb&tpr=sbt&enc=2&searchfor=lH06uKAOLFenKn6PtmdxVGgPWJlJv10Lm-MqzUcD752V9dlbEG3tGNUqbrYHZjKxeNdPpn8E6c-B0y_JsZD7kYBvVtYXif-bc3grEeq44U7996P7KLrEeN9UHFC9nkuqdixEm4Xzh_S1xbgAO-uuBlXh7nt93-tprH2Bdg67cbBm7NWUcjq9doCIyrui1yCbROe1P9pJK-avv5fcCvmC2bO8JxKrvrdUg2chTppzRV4Y58RhzE4Qagu1J3VuQc2qcmdSx3fbaXB9dqQaCAklyvlDfm07IZPoIn5bS7GEx7dzjhXSQfy2kcfVj5z-HR5yQgXSpfdxo8pJf2OzQeyVBQ&ts=1585317565398&imgs=1p&filter=on&imgDetail=true">
+    <img class="img-rounder" src="https://int.search.tb.ask.com/search/AJimage.jhtml?&enc=0&n=7866ea6e&p2=%5ECNL%5Exdm122%5ETTAB03%5Ein&pg=AJimage&pn=1&ptb=BB4165D3-9757-4B5A-914C-F065C4D2DA34&qs=&searchfor=images&si=&ss=sub&st=sb&tpr=sbt&imgs=1p&filter=on&imgDetail=true"><br><br>
+    <img class="img-circle" src="https://int.search.tb.ask.com/search/AJimage.jhtml?&n=7866ea6e&p2=%5ECNL%5Exdm122%5ETTAB03%5Ein&ptb=BB4165D3-9757-4B5A-914C-F065C4D2DA34&qs=&si=&ss=sub&st=sb&tpr=sbt&enc=2&searchfor=kWGx2h7GZG9o6WBb8dnDTn4gqbUl6MW109X2K52sFm7JA1CRWNyHWqBd_akAj2Oe6aRInwiDVilsLGEt8dNUhN50tlOMfxlA1NFdAHSvp2eG9LsI-RaJ3H1OT-nGPjPZr8FFffdO1f5rte6pVvhYk7cKfQl_mVRfPsCNf9KRmhzPuibIKHehd4jYCdKi1ESp_133Cf9oePJFN9pWr78wDzMeK_N1r_gXa_NCM7drGJn7m7mpYLkBq61fYEHsyoG9E4g2a_7HRV2piVHHd1hjYggoHTXwC1j5z8lgVFu0b0BKt1iRcZCqKZrLMqN3jTP6xCKs-dQpUec6-RidcBJb4w&ts=1585317314141&imgs=1p&filter=on&imgDetail=true">
+</div>
+
+<hr>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-8 col-xs-8">
+            <p>his class uses pointer-events: none to try to disable the link functionality of </p>
+        </div>
+        <div class="col-md-4 col-md-4 col-xs-4 ">
+        <p>but that CSS property is not yet standardized and isn't fully supported in Opera 18 and below, or in Internet Explorer 11. In addition, even in browsers that do support </p>
+    </div>
+    <div class="row">
+    <div class="col-md-3 col-xs-3">
+            <p>his class uses pointer-events: none to try to disable the link functionality of </p>
+        </div>
+        <div class="col-md-3 col-xs-3">
+        <p>but that CSS property is not yet standardized and isn't fully supported in Opera 18 and below, or in Internet Explorer 11. In addition, even in browsers that do support </p>
+    </div>
+     <div class="col-md-3 col-xs-3">
+            <p>his class uses pointer-events: none to try to disable the link functionality of </p>
+        </div>
+        <div class="col-md-3 col-xs-3">
+        <p>but that CSS property is not yet standardized and isn't fully supported in Opera 18 and below, or in Internet Explorer 11. In addition, even in browsers that do support </p>
+    </div>
+
+    <br>
+    <div class="row">
+        <div class="col-md-6 col-xs-6">
+            <p>his class uses pointer-events: none to try to disable the link functionality of </p>
+        </div>
+        <div class="col-md-6 col-xs-6">
+        <p>but that CSS property is not yet standardized and isn't fully supported in Opera 18 and below, or in Internet Explorer 11. In addition, even in browsers that do support </p>
+    </div>
+
+</div>
+</div>
+
+<div class="row">
+    <div class="col-md-1">
+        <h3>box</h3>
+    </div>
+    <div class="col-md-1">
+        <h3>box</h3>
+    </div>
+    <div class="col-md-1">
+        <h3>box</h3>
+    </div>
+    <div class="col-md-1">
+        <h3>box</h3>
+    </div>
+</div>
+    
+
+
+  <div style=
+  "height: 400px"></div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
